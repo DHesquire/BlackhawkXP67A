@@ -1,0 +1,11 @@
+{
+  "LocalisationPackage": {
+    "Language": "it-IT",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Il Beechcraft King Air è il turboelica più famoso al mondo, titolo che si è guadagnato nel tempo grazie a prestazioni costanti e affidabili e al continuo perfezionamento. Un decennio dopo il primo volo del prototipo nel 1963, la società introduce il più ampio \"Super King Air\" e, sebbene da allora sia stata eliminata la dicitura \"super\" dal nome, l'azienda vanta la più lunga serie di produzione di aeromobili civili a turboelica della relativa categoria.<\/br><\/br>Nel 2008, attingendo da un'eredità consolidata, Beechcraft annuncia il King Air 350i, caratterizzato da un'avionica avanzata, un maggiore comfort per i passeggeri e una riduzione del rumore interno e delle vibrazioni, che rendono il modello un agguerrito concorrente dei jet più piccoli.<\/br><\/br>I motori Pratt  Whitney Canada PT6A-60A, potenti ed efficienti, sono combinati a eliche Hartzell a quattro pale bilanciate dinamicamente e conferiscono all'aeromobile una notevole capacità di carico utile, un'ampia portata e il maggiore risparmio all'interno del mercato dell'aviazione commerciale.<\/br><\/br>Con eccellenti prestazioni su piste brevi e un carrello di atterraggio lungo e robusto, il 350i è in grado di decollare e atterrare in aeroporti di quasi tutte le dimensioni, una risorsa inestimabile in un mondo moderno dove le esigenze commerciali possono condurre in ogni parte del mondo.",
+      "AIRCRAFT.UI_MANUFACTURER": "Textron Aviation",
+      "AIRCRAFT.UI_MODEL": "Beechcraft King Air 350i",
+      "AIRCRAFT.UI_VARIATION": "Asobo"
+    }
+  }
+}

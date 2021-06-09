@@ -1,0 +1,11 @@
+{
+  "LocalisationPackage": {
+    "Language": "sv-SE",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Beechcraft King Air är världens mest populära affärsplan med turbopropmotor, en utmärkelse som tjänats in under lång tid genom konsekvent, pålitlig prestanda och kontinuerlig förfining. Ett decennium efter att den första prototypen lyfte 1963 lanserade företaget den större \"Super King Air\" – och även om ordet \"super\" har tagits bort från namnet sedan dess så kan den här grenen ståta med den längsta produktionsomgången av civilflyg med turbopropmotor i sin klass.<\/br><\/br>Under 2008 offentliggjorde Beechcraft King Air 350i, byggt på ett väletablerat arv med en avancerad avionikserie, högre passagerarkomfort och minskat buller och vibration interiört som gör modellen till en sann rival för mindre jetflyg.<\/br><\/br>Planets kraftfulla men effektiva PT6A-60A-motorer från Pratt & Whitney Canada tillsammans med dynamiskt balanserade fyrbladiga Hartzell-propellrar resulterar i en påfallande nyttolastkapacitet, utökad räckvidd och det mest bränslesnåla flygplanet på affärsflygmarknaden.<\/br><\/br>Med utmärkt prestanda på korta start- och landningsbanor och ett långt robust landningsställ kan 350i lyfta och landa på flygplatser av nästan alla storlekar – en ovärderlig tillgång i vår moderna värld där företagets behov kan ta dig var som helst.",
+      "AIRCRAFT.UI_MANUFACTURER": "Textron Aviation",
+      "AIRCRAFT.UI_MODEL": "Beechcraft King Air 350i",
+      "AIRCRAFT.UI_VARIATION": "Asobo"
+    }
+  }
+}

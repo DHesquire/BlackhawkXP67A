@@ -1,0 +1,221 @@
+{
+  "LocalisationFile": {
+    "Version": 2,
+    "UUID": "fc73f560-67b6-43a8-8741-af1056a635d7",
+    "Languages": [
+      "en-US",
+      "fr-FR",
+      "es-ES",
+      "de-DE",
+      "it-IT",
+      "pl-PL",
+      "pt-BR",
+      "ru-RU",
+      "ja-JP",
+      "nl-NL",
+      "nb-NO",
+      "sv-SE",
+      "fi-FI"
+    ],
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": {
+        "UUID": "166c39d1-2724-4a55-83b6-4c26c5ccbad8",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-28 18:04:18",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "The Beechcraft King Air is the world’s most popular business turboprop, a distinction earned over time through consistent, reliable performance and continuous refinement. A decade after the first prototype took flight in 1963, the company introduced the larger \"Super King Air\" -- and though the \"super\" has since been dropped from the name, the branch is enjoying the longest production run of any civilian turboprop aircraft in its class.</br></br>In 2008, building on a well-established legacy, Beechcraft announced the King Air 350i, with an advanced avionics suite, greater passenger comfort, and reductions to interior noise and vibration that make the model a true rival to smaller jets.</br></br>The plane's powerful but efficient Pratt & Whitney Canada PT6A-60A engines, paired with dynamically-balanced four-blade Hartzell propellers, equate to remarkable payload capacity, extended range, and the most fuel-friendly aircraft in the business aviation market.</br></br>With excellent short runway performance and long, rugged landing gear, the 350i is able to take off and touch down at airports of almost any size -- an invaluable asset in our modern world where business needs can take you anywhere."
+          },
+          "fr-FR": {
+            "Text": "Le Beechcraft King Air est le turbopropulseur d'affaires le plus populaire au monde, une distinction obtenue au fil du temps grâce à des performances fiables et régulières et l'amélioration continue. Une décennie après l'envol du premier prototype en 1963, l'entreprise a introduit le « Super King Air » de plus grande taille -- et bien que le mot « super » ait été retiré du nom depuis, ce modèle connaît la phase de production la plus longue parmi les appareils d'affaires à turbopropulseur de sa catégorie.</br></br>En 2008, s'appuyant sur un héritage bien établi, Beechcraft annonce le King Air 350i, équipé d'une suite avionique avancée, offrant un meilleur confort à ses passagers et réduisant le bruit intérieur et les vibrations, faisant de ce modèle un véritable rival pour les petits jets.</br></br>Les moteurs puissants mais efficaces PT6A-60A de Pratt & Whitney Canada, couplés aux hélices Hartzell à 4 pales et équilibre dynamique, offrent une capacité de charge utile remarquable, un rayon d'action étendu, et l'avion le plus économe en carburant du marché de l'aviation d'affaires.</br></br>Ses excellentes performances en piste courte et son train d'atterrissage long et robuste permettent au 350i de décoller et d'atterrir à des aéroports de toute taille ou presque -- un atout majeur dans notre monde moderne où l'entreprise peut nous mener n'importe où."
+          },
+          "es-ES": {
+            "Text": "El Beechcraft King Air es el turbohélice comercial más popular del mundo, una distinción que se ha ganado a lo largo del tiempo gracias a su rendimiento constante y fiable, y a su continua mejora. Una década después de que el primer prototipo volara en 1963, la compañía presentó el Super King Air de mayor tamaño. Aunque el \"super\" fue eliminado del nombre más tarde, es la aeronave de turbohélice civil que lleva más tiempo produciéndose de su categoría.</br></br>En 2008, con un legado bien establecido, Beechcraft anunció el King Air 350i, con una avanzada aviónica, mayor comodidad para el pasajero y reducciones del ruido y la vibración interiores que hacen que el modelo sea un auténtico rival para los jets más pequeños.</br></br>Los potentes pero eficientes motores Pratt & Whitney Canada PT6A-60A, junto con las hélices Hartzell de cuatro aspas dinámicamente equilibradas consiguen una notable capacidad de carga útil, un largo alcance y el mejor consumo en el mercado de la aviación corporativa.</br></br>Con un excelente rendimiento en pista corta y un tren de aterrizaje largo y resistente, el 350i es capaz de despegar y aterrizar en aeropuertos de casi cualquier tamaño. Este es un activo que no tiene precio en un mundo moderno donde las necesidades corporativas pueden llevarte a cualquier parte."
+          },
+          "de-DE": {
+            "Text": "Die Beechcraft King Air ist das weltweit beliebteste Business-Turboprop, ein Prädikat, das im Laufe der Zeit infolge von Konsistenz, verlässlicher Leistung und kontinuierlichen Verbesserungen erworben wurde. Eine Dekade, nachdem der Prototyp zum ersten Mal 1963 aufstieg, brachte das Unternehmen die größere „Super King Air“ auf den Markt. Und obwohl der Zusatz „Super“ seitdem weggelassen wird, erfreut sich dieses Modell der längsten Produktionsserie von allen zivilen Turboprop-Flugzeugen in seiner Klasse.</br></br>2008, auf ein gutfundiertes Erbe aufbauend, kündigte Beechcraft die King Air 350i an, die über ein verbessertes Avionik-Paket , einen größeren Passagierkomfort und verringerte Geräusche und Vibrationen im Innenraum verfügte, wodurch dieses Modell zu einer echten Konkurrenz für kleinere Jets wird.</br></br>Die mächtigen Pratt-&-Whitney-Canada-PT6A-60A-Triebwerke dieser Maschine garantieren zusammen mit den dynamisch ausbalancierten Vier-Blatt-Hartzell-Propellern eine beeindrucke Nutzlastkapazität, eine verbesserte Reichweite und eine Treibstoffeffizienz, der innerhalb des Marktes für die Geschäftsluftfahrt die Krone gebührt.</br></br>Mit einer exzellenten Leistung, was kurze Pisten angeht, und einem stabilen Fahrwerk ist die 350i von Flugplätze beinahe jeder Größe zu starten und zu landen – ein wertvolles Prädikat in der heutigen Welt, in der einen Geschäfte nahezu überall hinführen können."
+          },
+          "it-IT": {
+            "Text": "Il Beechcraft King Air è il turboelica più famoso al mondo, titolo che si è guadagnato nel tempo grazie a prestazioni costanti e affidabili e al continuo perfezionamento. Un decennio dopo il primo volo del prototipo nel 1963, la società introduce il più ampio \"Super King Air\" e, sebbene da allora sia stata eliminata la dicitura \"super\" dal nome, l'azienda vanta la più lunga serie di produzione di aeromobili civili a turboelica della relativa categoria.</br></br>Nel 2008, attingendo da un'eredità consolidata, Beechcraft annuncia il King Air 350i, caratterizzato da un'avionica avanzata, un maggiore comfort per i passeggeri e una riduzione del rumore interno e delle vibrazioni, che rendono il modello un agguerrito concorrente dei jet più piccoli.</br></br>I motori Pratt  Whitney Canada PT6A-60A, potenti ed efficienti, sono combinati a eliche Hartzell a quattro pale bilanciate dinamicamente e conferiscono all'aeromobile una notevole capacità di carico utile, un'ampia portata e il maggiore risparmio all'interno del mercato dell'aviazione commerciale.</br></br>Con eccellenti prestazioni su piste brevi e un carrello di atterraggio lungo e robusto, il 350i è in grado di decollare e atterrare in aeroporti di quasi tutte le dimensioni, una risorsa inestimabile in un mondo moderno dove le esigenze commerciali possono condurre in ogni parte del mondo."
+          },
+          "pl-PL": {
+            "Text": "Model Beechcraft King Air to najpopularniejszy biznesowy samolot turbośmigłowy na świecie. Pozycję tę osiągnął dzięki konsekwentnej pracy nad niezawodnością i usprawnieniami. Dziesięć lat po dziewiczym locie prototypu tej maszyny, który odbył się w 1963 roku, producent wprowadził na rynek jej większą odmianę: model „Super Air King”. I choć z biegiem czasu przedrostek „Super” zniknął z jej nazwy, wersja ta jest najdłużej produkowanym cywilnym samolotem turbośmigłowym w swojej klasie.</br></br>W 2008 roku firma Beechcraft ogłosiła kolejny etap rozwoju swojej uznanej marki: model King Air 350i, który został wyposażony w nowoczesny układ awioniki, udogodnienia dla pasażerów i elementy redukujące hałas i wibracje we wnętrzu samolotu, dzięki którym maszyna ta miała konkurować z mniejszymi samolotami odrzutowymi.</br></br>Wyprodukowane przez firmę Pratt & Whitney Canada niewielkie, ale wydajne silniki PT6A-60A napędzające dynamicznie wyważone, czterołopatowe śmigła marki Hartzell zapewniają wysoką ładowność, spory zasięg i najniższe spalanie paliwa w całej klasie samolotów biznesowych.</br></br>Maszyna ta nie potrzebuje długiej drogi startowej, a dzięki wysokiemu i wytrzymałemu podwoziu jest zdolna do startu i lądowania na lotniskach o niemal każdym rozmiarze, co stanowi niewątpliwą zaletę we współczesnym świecie, w którym sprawy biznesowe załatwiane są w wielu różnych zakątkach naszej planety."
+          },
+          "pt-BR": {
+            "Text": "O Beechcraft King Air é o turbopropulsor comercial mais popular do mundo, uma distinção obtida ao longo do tempo por meio de desempenho consistente e confiável e refinamento contínuo. Uma década após o voo do primeiro protótipo em 1963, a empresa introduziu o \"Super King Air\", um avião maior – e embora o \"super\" já tenha sido retirado do nome, a ramificação aproveita a mais longa produção de qualquer aeronave civil com turbopropulsor em sua classe.</br></br>Em 2008, respaldada por um legado bem estabelecido, a Beechcraft anunciou o King Air 350i, com um pacote de aviônica avançado, maior conforto para os passageiros e reduções do ruído e vibração internos que fazem do modelo um verdadeiro rival de jatos menores.</br></br>Os poderosos e eficientes motores Pratt & Whitney Canada PT6A-60A, em conjunto com hélices Hartzell de 4 lâminas dinamicamente balanceadas, resultam em notável capacidade de carga, o alcance estendido e a aeronave mais econômica do mercado da aviação comercial.</br></br>Com excelente desempenho em pistas curtas e trem de pouso longo e robusto, o 350i é capaz de decolar e pousar em aeroportos de quase todos os tamanhos – uma característica inestimável em nosso mundo moderno, onde os negócios podem levar você a qualquer lugar."
+          },
+          "ru-RU": {
+            "Text": "Beechcraft King Air — это самый популярный в мире деловой самолёт с турбовинтовыми двигателями, и это звание совершенно заслуженно благодаря его отличным лётным характеристикам, безупречной надёжности и постоянной модернизации. Через десять лет после первого полёта прототипа в 1963 году компания представила более крупную модификацию этого самолёта под названием Super King Air. И хотя слово Super позже исчезло из названия, на сегодняшний день это семейство самолётов стоит на конвейере дольше любого другого гражданского турбовинтового самолёта этого класса.</br></br>В 2008 году Beechcraft представили King Air 350i, который создан на базе предыдущих моделей, но оборудован современной авионикой и обеспечивает пассажирам куда больше комфорта — в том числе за счёт снижения шума. Всё это позволяет ему конкурировать даже с небольшими бизнес-джетами.</br></br>Самолёт оснащён мощными, но экономичными двигателями Pratt & Whitney Canada PT6A-60A с четырёхлопастными воздушными винтами Hartzell и динамической балансировкой. Грузоподъёмность, дальность и невероятная экономичность сделали его бестселлером на рынке деловой авиации.</br></br>Благодаря отличным взлётно-посадочным характеристикам, а также длинным и прочным стойкам шасси King Air отлично чувствует себя в аэропортах любого размера, что особенно важно для бизнес-самолёта — ведь не всегда можно предсказать, куда придётся полететь по делам."
+          },
+          "ja-JP": {
+            "Text": "ビーチクラフト キング エアは、世界で最も人気のあるビジネス用ターボプロップ航空機であり、高い一貫性と信頼性を誇る性能と継続的な改善によって、長年にわたり評価を築き上げてきた。1963 年に最初のプロトタイプが飛行してから 10 年後、同社はより大型の「スーパー キング エア」を世に送り出した。後に「スーパー」は名前から外されたが、この派生系列は、同クラスでは最も長く生産されている民間用ターボプロップ航空機となっている。</br></br>2008 年、ビーチクラフト社は確立された伝統に基づいてキング エア 350i を作り上げ、発表した。この機体は、高度なアビオニクス スイート、より優れた乗客の快適性、内部の騒音と振動の削減を実現しており、小型ジェット機の真のライバルとなっている。</br></br>強力かつ効率的なプラット・アンド・ホイットニー・カナダ社の PT6A-60A エンジンは、動的に平衡した 4 枚刃のハーツェル プロペラと組み合わさって、卓越したペイロード容量と長い航続距離を両立させ、ビジネス航空市場で最も燃費のよい航空機を生み出した。</br></br>優れた短距離滑走性能と、長く頑丈な着陸装置により、350i はほぼどんな空港でも離着陸することができる。ビジネスのためならどこにでも行くこととなる現代の世界において、非常に重要な強みだと言える。",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nl-NL": {
+            "Text": "De Beechcraft King Air is 's werelds populairste zakelijke turboprop. Het vliegtuig heeft deze onderscheiding in de loop der jaren verdiend door middel van consistente, betrouwbare prestaties en doorlopende verfijning. Een decennium nadat het eerste prototype in 1963 de lucht inging, introduceerde het bedrijf de grotere Super King Air. En hoewel het woord 'super' inmiddels uit de naam is verdwenen, is dit model het de langst in productie geweest van alle turbopropvliegtuigen voor de burgerluchtvaart in zijn klasse.</br></br>Voortbouwend op een lange traditie kondigde Beechcraft in 2008 de King Air 350i aan. Deze was voorzien van een geavanceerd elektronisch systeem, bood passagiers meer comfort en verminderde het geluid en de trillingen in het interieur, zodat het een echte concurrent werd van kleinere jets.</br></br>De krachtige maar efficiënte Pratt & Whitney Canada PT6A-60A-motoren zorgen in combinatie met de dynamisch gebalanceerde vierbladige Hartzell-propellers voor een opmerkelijke laadcapaciteit bij een groter bereik en maken het tot het meest brandstofzuinige vliegtuig in de zakelijke luchtvaartmarkt.</br></br>Doordat de 350i uitstekend overweg kan met korte start- en landingsbanen en beschikt over een lang, robuust landingsgestel, kan hij opstijgen en landen op luchthavens van bijna elke grootte – een belangrijke troef in de moderne wereld waar zakelijke verplichtingen je overal heen kunnen brengen.",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nb-NO": {
+            "Text": "Beechcraft King Air er verdens mest populære turbopropfly til businessbruk, en utmerkelse det har gjort seg fortjent til over tid med en konsistent, pålitelig ytelse og kontinuerlig forbedring. Et tiår etter at den første prototypen tok av i 1963, introduserte selskapet det større «Super King Air» – og selv om «Super» siden har blitt droppet fra navnet, er dette det sivile turbopropflyet med den lengste produksjonsperioden i sin klasse.</br></br>I 2008 valgte Textron Aviation å bygge videre på en veletablert arv, da de annonserte Beechcraft King Air 350i. Dette flyet har en avansert avionikkpakke, større passasjerkomfort, og mindre innvendig støy og vibrasjoner, noe som gjør modellen til en reell rival til mindre jetfly.</br></br>Flyets kraftige, men effektive Pratt & Whitney Canada PT6A-60A-motorer, kombinert med dynamisk balanserte Hartzell-propeller med fire blader, fører til en bemerkelsesverdig nyttelastkapasitet, lengre rekkevidde og de mest drivstoffvennlige flyene på businessmarkedet.</br></br>Med utmerket ytelse på kort rullebane og et lang og robust understell, er 350i i stand til å ta av og lande på nesten alle flyplasser – en uvurderlig ressurs i vår moderne verden hvor businessavtaler kan ta deg hvor som helst."
+          },
+          "sv-SE": {
+            "Text": "Beechcraft King Air är världens mest populära affärsplan med turbopropmotor, en utmärkelse som tjänats in under lång tid genom konsekvent, pålitlig prestanda och kontinuerlig förfining. Ett decennium efter att den första prototypen lyfte 1963 lanserade företaget den större \"Super King Air\" – och även om ordet \"super\" har tagits bort från namnet sedan dess så kan den här grenen ståta med den längsta produktionsomgången av civilflyg med turbopropmotor i sin klass.</br></br>Under 2008 offentliggjorde Beechcraft King Air 350i, byggt på ett väletablerat arv med en avancerad avionikserie, högre passagerarkomfort och minskat buller och vibration interiört som gör modellen till en sann rival för mindre jetflyg.</br></br>Planets kraftfulla men effektiva PT6A-60A-motorer från Pratt & Whitney Canada tillsammans med dynamiskt balanserade fyrbladiga Hartzell-propellrar resulterar i en påfallande nyttolastkapacitet, utökad räckvidd och det mest bränslesnåla flygplanet på affärsflygmarknaden.</br></br>Med utmärkt prestanda på korta start- och landningsbanor och ett långt robust landningsställ kan 350i lyfta och landa på flygplatser av nästan alla storlekar – en ovärderlig tillgång i vår moderna värld där företagets behov kan ta dig var som helst."
+          },
+          "fi-FI": {
+            "Text": "Beechcraft King Air on maailman suosituin potkuriturbiinilla vraustettu liikelentokone. Suosion on ansaittu ajan myötä johdonmukaisella, luotettavalla suorituskyvyllä ja jatkuvilla parannuksilla. Vuosikymmen sen jälkeen, kun ensimmäinen prototyyppi lähti lentoon vuonna 1963, yhtiö esitteli suuremman mallin, Super King Airin - ja vaikka super on sittemmin pudotettu nimestä, mallihaara nauttii luokkansa pisimmästä siviiliturbiinilentokoneiden tuotantoputkesta.</br></br>Vuonna 2008, vakiintuneeseen perinteeseen pohjautuen, Beechcraft julkisti King Air 350i:n edistyneellä avioniikkaohjelmistolla, paremmalla matkustajamukavuudella ja sisämelun ja tärinän vähentymisellä. Nämä ominaisuudet tekevät siitä todellisen kilpailijan pienemmille suihkukoneille.</br></br>Koneen tehokkaat mutta taloudelliset Pratt & Whitney Canada PT6A-60A -moottorit, yhdistettynä dynaamisesti tasapainotettuihin, neliteräisiin Hartzell-potkureihin, antavat huomattavaa hyötykuormakapasiteettia, laajemman toiminta-alueen sekä liikelentokonemarkkinoiden polttoaineystävällisimmät lentokoneet.</br></br>Erinomaisen lyhyen kiitotiesuorituskyvyn ja pitkän, vahvan laskutelineen ansiosta 350i pystyy käyttämään lentoonlähtöön ja laskeutumiseen lähes minkäkokoista lentokenttää hyvänsä, mikä on korvaamaton voimavara nykymaailmassamme, jossa liiketoiminnan tarpeet voivat viedä minne tahansa."
+          }
+        }
+      },
+      "AIRCRAFT.UI_MANUFACTURER": {
+        "UUID": "2d583d65-553f-4075-bfe6-b9242050ec98",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-28 18:04:18",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "Textron Aviation",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "Textron Aviation"
+          },
+          "es-ES": {
+            "Text": "Textron Aviation"
+          },
+          "de-DE": {
+            "Text": "Textron Aviation"
+          },
+          "it-IT": {
+            "Text": "Textron Aviation"
+          },
+          "pl-PL": {
+            "Text": "Textron Aviation"
+          },
+          "pt-BR": {
+            "Text": "Textron Aviation"
+          },
+          "ru-RU": {
+            "Text": "Textron Aviation"
+          },
+          "ja-JP": {
+            "Text": "テキストロン・アビエーション",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nl-NL": {
+            "Text": "Textron Aviation",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nb-NO": {
+            "Text": "Textron Aviation"
+          },
+          "sv-SE": {
+            "Text": "Textron Aviation"
+          },
+          "fi-FI": {
+            "Text": "Textron Aviation"
+          }
+        }
+      },
+      "AIRCRAFT.UI_MODEL": {
+        "UUID": "899b2e75-4164-4b67-a09c-9b235fbd551b",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-28 18:04:18",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "Beechcraft King Air 350i",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "es-ES": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "de-DE": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "it-IT": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "pl-PL": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "pt-BR": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "ru-RU": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "ja-JP": {
+            "Text": "ビーチクラフト キング エア 350i",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nl-NL": {
+            "Text": "Beechcraft King Air 350i",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nb-NO": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "sv-SE": {
+            "Text": "Beechcraft King Air 350i"
+          },
+          "fi-FI": {
+            "Text": "Beechcraft King Air 350i"
+          }
+        }
+      },
+      "AIRCRAFT.UI_VARIATION": {
+        "UUID": "c8b58202-f9bd-4fe9-9698-ceaaca395c53",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-28 18:04:18",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "Asobo"
+          },
+          "fr-FR": {
+            "Text": "Asobo"
+          },
+          "es-ES": {
+            "Text": "Asobo"
+          },
+          "de-DE": {
+            "Text": "Asobo"
+          },
+          "it-IT": {
+            "Text": "Asobo"
+          },
+          "pl-PL": {
+            "Text": "Asobo"
+          },
+          "pt-BR": {
+            "Text": "Asobo"
+          },
+          "ru-RU": {
+            "Text": "Asobo"
+          },
+          "ja-JP": {
+            "Text": "アソボ",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nl-NL": {
+            "Text": "Asobo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nb-NO": {
+            "Text": "Asobo"
+          },
+          "sv-SE": {
+            "Text": "Asobo"
+          },
+          "fi-FI": {
+            "Text": "Asobo"
+          }
+        }
+      }
+    }
+  }
+}

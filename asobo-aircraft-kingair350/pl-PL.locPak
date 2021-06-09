@@ -1,0 +1,11 @@
+{
+  "LocalisationPackage": {
+    "Language": "pl-PL",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Model Beechcraft King Air to najpopularniejszy biznesowy samolot turbośmigłowy na świecie. Pozycję tę osiągnął dzięki konsekwentnej pracy nad niezawodnością i usprawnieniami. Dziesięć lat po dziewiczym locie prototypu tej maszyny, który odbył się w 1963 roku, producent wprowadził na rynek jej większą odmianę: model „Super Air King”. I choć z biegiem czasu przedrostek „Super” zniknął z jej nazwy, wersja ta jest najdłużej produkowanym cywilnym samolotem turbośmigłowym w swojej klasie.<\/br><\/br>W 2008 roku firma Beechcraft ogłosiła kolejny etap rozwoju swojej uznanej marki: model King Air 350i, który został wyposażony w nowoczesny układ awioniki, udogodnienia dla pasażerów i elementy redukujące hałas i wibracje we wnętrzu samolotu, dzięki którym maszyna ta miała konkurować z mniejszymi samolotami odrzutowymi.<\/br><\/br>Wyprodukowane przez firmę Pratt & Whitney Canada niewielkie, ale wydajne silniki PT6A-60A napędzające dynamicznie wyważone, czterołopatowe śmigła marki Hartzell zapewniają wysoką ładowność, spory zasięg i najniższe spalanie paliwa w całej klasie samolotów biznesowych.<\/br><\/br>Maszyna ta nie potrzebuje długiej drogi startowej, a dzięki wysokiemu i wytrzymałemu podwoziu jest zdolna do startu i lądowania na lotniskach o niemal każdym rozmiarze, co stanowi niewątpliwą zaletę we współczesnym świecie, w którym sprawy biznesowe załatwiane są w wielu różnych zakątkach naszej planety.",
+      "AIRCRAFT.UI_MANUFACTURER": "Textron Aviation",
+      "AIRCRAFT.UI_MODEL": "Beechcraft King Air 350i",
+      "AIRCRAFT.UI_VARIATION": "Asobo"
+    }
+  }
+}
