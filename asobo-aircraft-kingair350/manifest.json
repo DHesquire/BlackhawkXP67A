@@ -9,13 +9,13 @@
   "title": "Beechcraft King Air 350i",
   "manufacturer": "Textron Aviation",
   "creator": "Asobo Studio",
-  "package_version": "0.1.60",
-  "minimum_game_version": "1.16.0",
+  "package_version": "0.1.81",
+  "minimum_game_version": "1.27.6",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",
       "OlderHistory": ""
     }
   },
-  "total_package_size": "00000000000446057597"
+  "total_package_size": "00000000000416152282"
 }

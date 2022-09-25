@@ -1,5 +1,4 @@
 <PlaneHTMLConfig>
-  
 	<Instrument>
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
@@ -14,15 +13,13 @@
 				<Simvar name="CIRCUIT ON:28" unit="Boolean"/>
 			</Or>
 		</Electric>
-	</Instrument>  
-	
+	</Instrument>
 	<Instrument>
 		<Name>DigitalOAT</Name>
 		<Electric>
 			<Simvar name="CIRCUIT GENERAL PANEL ON" unit="Boolean"/>
 		</Electric>
 	</Instrument>
-
 	<Instrument>
 		<Name>AS3X_Touch_2</Name>
 		<DisplayMode>MFD</DisplayMode>
@@ -31,13 +28,11 @@
 			<Simvar name="CIRCUIT ON:29" unit="Boolean"/>
 		</Electric>
 	</Instrument>
-	
 	<Logic>
 		<Handler>Systems_AS1000</Handler>
 		<PFD>AS3X_Touch_1</PFD>
 		<MFD>AS3X_Touch_2</MFD>
 	</Logic>
-  
 	<EngineDisplay>
 		<Text>
 			<Center>Torq</Center>
@@ -52,11 +47,11 @@
 						<CursorType>Triangle</CursorType>
 						<ValuePos>End</ValuePos>
 					</Style>
-					<BeginText></BeginText>
-					<EndText></EndText>
+					<BeginText/>
+					<EndText/>
 					<ID>Torque1_Gauge</ID>
-					<Title></Title>
-					<Unit></Unit>
+					<Title/>
+					<Unit/>
 					<Minimum>0</Minimum>
 					<Maximum>110</Maximum>
 					<Value>
@@ -83,11 +78,11 @@
 						<CursorType>Triangle</CursorType>
 						<ValuePos>End</ValuePos>
 					</Style>
-					<BeginText></BeginText>
-					<EndText></EndText>
+					<BeginText/>
+					<EndText/>
 					<ID>Torque2_Gauge</ID>
-					<Title></Title>
-					<Unit></Unit>
+					<Title/>
+					<Unit/>
 					<Minimum>0</Minimum>
 					<Maximum>110</Maximum>
 					<Value>
@@ -119,11 +114,11 @@
 						<CursorType>Triangle</CursorType>
 						<ValuePos>End</ValuePos>
 					</Style>
-					<BeginText></BeginText>
-					<EndText></EndText>
+					<BeginText/>
+					<EndText/>
 					<ID>ITT1_Gauge</ID>
-					<Title></Title>
-					<Unit></Unit>
+					<Title/>
+					<Unit/>
 					<Minimum>0</Minimum>
 					<Maximum>
 						<StateMachine>
@@ -202,7 +197,7 @@
 					</ColorLine>
 					<ColorLine>
 						<Color>red</Color>
-						<Position>						
+						<Position>
 							<StateMachine>
 								<State id="Start" value="870">
 									<Transition to="Normal">
@@ -225,7 +220,7 @@
 					</ColorLine>
 					<ColorLine>
 						<Color>red</Color>
-						<Position>						
+						<Position>
 							<StateMachine>
 								<State id="Start" value="1000">
 									<Transition to="Normal">
@@ -246,25 +241,24 @@
 							</StateMachine>
 						</Position>
 					</ColorLine>
-					
 					<RedBlink>
 						<Or>
-						  <Greater>
-							<Simvar name="TURB ENG ITT:1" unit="celsius"/>
-							<Constant>1000</Constant>
-						  </Greater>
-						  <Timer time="5">
 							<Greater>
-							  <Simvar name="TURB ENG ITT:1" unit="celsius"/>
-							  <Constant>870</Constant>
+								<Simvar name="TURB ENG ITT:1" unit="celsius"/>
+								<Constant>1000</Constant>
 							</Greater>
-						  </Timer>
-						  <Timer time="20">
-							<Greater>
-							  <Simvar name="TURB ENG ITT:1" unit="celsius"/>
-							  <Constant>840</Constant>
-							</Greater>
-						  </Timer>
+							<Timer time="5">
+								<Greater>
+									<Simvar name="TURB ENG ITT:1" unit="celsius"/>
+									<Constant>870</Constant>
+								</Greater>
+							</Timer>
+							<Timer time="20">
+								<Greater>
+									<Simvar name="TURB ENG ITT:1" unit="celsius"/>
+									<Constant>840</Constant>
+								</Greater>
+							</Timer>
 						</Or>
 					</RedBlink>
 				</Gauge>
@@ -278,11 +272,11 @@
 						<CursorType>Triangle</CursorType>
 						<ValuePos>End</ValuePos>
 					</Style>
-					<BeginText></BeginText>
-					<EndText></EndText>
+					<BeginText/>
+					<EndText/>
 					<ID>ITT2_Gauge</ID>
-					<Title></Title>
-					<Unit></Unit>
+					<Title/>
+					<Unit/>
 					<Minimum>0</Minimum>
 					<Maximum>
 						<StateMachine>
@@ -361,7 +355,7 @@
 					</ColorLine>
 					<ColorLine>
 						<Color>red</Color>
-						<Position>						
+						<Position>
 							<StateMachine>
 								<State id="Start" value="870">
 									<Transition to="Normal">
@@ -384,7 +378,7 @@
 					</ColorLine>
 					<ColorLine>
 						<Color>red</Color>
-						<Position>						
+						<Position>
 							<StateMachine>
 								<State id="Start" value="1000">
 									<Transition to="Normal">
@@ -405,25 +399,24 @@
 							</StateMachine>
 						</Position>
 					</ColorLine>
-					
 					<RedBlink>
 						<Or>
-						  <Greater>
-							<Simvar name="TURB ENG ITT:2" unit="celsius"/>
-							<Constant>1000</Constant>
-						  </Greater>
-						  <Timer time="5">
 							<Greater>
-							  <Simvar name="TURB ENG ITT:2" unit="celsius"/>
-							  <Constant>870</Constant>
+								<Simvar name="TURB ENG ITT:2" unit="celsius"/>
+								<Constant>1000</Constant>
 							</Greater>
-						  </Timer>
-						  <Timer time="20">
-							<Greater>
-							  <Simvar name="TURB ENG ITT:2" unit="celsius"/>
-							  <Constant>840</Constant>
-							</Greater>
-						  </Timer>
+							<Timer time="5">
+								<Greater>
+									<Simvar name="TURB ENG ITT:2" unit="celsius"/>
+									<Constant>870</Constant>
+								</Greater>
+							</Timer>
+							<Timer time="20">
+								<Greater>
+									<Simvar name="TURB ENG ITT:2" unit="celsius"/>
+									<Constant>840</Constant>
+								</Greater>
+							</Timer>
 						</Or>
 					</RedBlink>
 				</Gauge>
@@ -442,11 +435,11 @@
 						<CursorType>Triangle</CursorType>
 						<ValuePos>End</ValuePos>
 					</Style>
-					<BeginText></BeginText>
-					<EndText></EndText>
+					<BeginText/>
+					<EndText/>
 					<ID>RPM1_Gauge</ID>
-					<Title></Title>
-					<Unit></Unit>
+					<Title/>
+					<Unit/>
 					<Minimum>0</Minimum>
 					<Maximum>2200</Maximum>
 					<Value>
@@ -483,11 +476,11 @@
 						<CursorType>Triangle</CursorType>
 						<ValuePos>End</ValuePos>
 					</Style>
-					<BeginText></BeginText>
-					<EndText></EndText>
+					<BeginText/>
+					<EndText/>
 					<ID>RPM2_Gauge</ID>
-					<Title></Title>
-					<Unit></Unit>
+					<Title/>
+					<Unit/>
 					<Minimum>0</Minimum>
 					<Maximum>2200</Maximum>
 					<Value>
@@ -535,7 +528,7 @@
 					<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="psi"/>
 				</ToFixed>
 			</Left>
-			<Center  id="OilPressText" fontsize="8">Oil Press</Center>
+			<Center id="OilPressText" fontsize="8">Oil Press</Center>
 			<Right fontsize="8" id="OilPressGauge_2">
 				<ToFixed precision="0">
 					<Simvar name="GENERAL ENG OIL PRESSURE:2" unit="psi"/>
@@ -568,878 +561,730 @@
 				</ToFixed>
 			</Right>
 		</Text>
-		
 		<Text>
 			<Center>CAS</Center>
 		</Text>
-		
 		<CAS nbMessages="11"/>
 	</EngineDisplay>
-	
-	  <Annunciations>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>FUEL OFF</Text>
-      <Condition>
-        <Equal>
-          <Simvar name="FUEL TANK SELECTOR:1" unit="number"/>
-          <Constant>0</Constant>
-        </Equal>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>FUEL PRESS</Text>
-      <Condition>
-        <LowerEqual>
-          <Simvar name="GENERAL ENG FUEL PRESSURE:1" unit="psi"/>
-          <Constant>10</Constant>
-        </LowerEqual>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>OIL PRESS</Text>
-      <Condition>
-        <LowerEqual>
-          <Simvar name="ENG OIL PRESSURE:1" unit="psi"/>
-          <Constant>60</Constant>
-        </LowerEqual>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>ITT</Text>
-      <Condition>
-        <Or>
-          <Greater>
-            <Simvar name="TURB ENG ITT:1" unit="celsius"/>
-            <Constant>1000</Constant>
-          </Greater>
-          <Timer time="5">
-            <Greater>
-              <Simvar name="TURB ENG ITT:1" unit="celsius"/>
-              <Constant>870</Constant>
-            </Greater>
-          </Timer>
-          <Timer time="20">
-            <Greater>
-              <Simvar name="TURB ENG ITT:1" unit="celsius"/>
-              <Constant>840</Constant>
-            </Greater>
-          </Timer>
-        </Or>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>FLAPS ASYM</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>ELEC FEATH FAULT</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>BLEED TEMP</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>CABIN ALTITUDE</Text>
-      <Condition>
-        <Greater>
-          <Simvar name="PRESSURIZATION CABIN ALTITUDE" unit="feet"/>
-          <Constant>10000</Constant>
-        </Greater>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>EDM</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>CABIN DIFF PRESS</Text>
-      <Condition>
-        <Greater>
-          <Simvar name="PRESSURIZATION PRESSURE DIFFERENTIAL" unit="psi"/>
-          <Constant>6.2</Constant>
-        </Greater>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>DOOR</Text>
-      <Condition>
-        <Greater>
-          <Simvar name="EXIT OPEN:0" unit="percent"/>
-          <Constant>0</Constant>
-        </Greater>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>USP ACTIVE</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>GEAR UNSAFE</Text>
-      <Condition>
-		<And>
-			<Not>
-				<Simvar name="GEAR HANDLE POSITION" unit="Bool"/>
-			</Not>
-			<Simvar name="SIM ON GROUND" unit="Bool"/>
-		</And>		
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>PARK BRAKE</Text>
-      <Condition>
-        <Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>OXYGEN</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>ABORT APR</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>AURAL WRN FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>AURAL WARN 1 CHNL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>FIRE</Text>
-      <Condition>
-        <Simvar name="ENG ON FIRE:1" unit="Bool"/>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>O2 CYL CLOSED</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Warning</Type>
-      <Text>PRESSU OFF</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>OIL PRESS</Text>
-      <Condition>
-        <And>
-          <LowerEqual>
-            <Simvar name="ENG OIL PRESSURE:1" unit="psi"/>
-            <Constant>105</Constant>
-          </LowerEqual>
-          <GreaterEqual>
-            <Simvar name="ENG OIL PRESSURE:1" unit="psi"/>
-            <Constant>60</Constant>
-          </GreaterEqual>
-        </And>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>FUEL LOW </Text>
-      <Condition Suffix="L-R">
-		<Or>
-			<And>
-			  <Lower>
-				<Simvar name="FUEL TANK LEFT MAIN QUANTITY" unit="gallon"/>
-				<Constant>9</Constant>
-			  </Lower>
-			  <Lower>
-				<Simvar name="FUEL TANK RIGHT MAIN QUANTITY" unit="gallon"/>
-				<Constant>9</Constant>
-			  </Lower>
-			</And>
-			 <Equal>
-				<Simvar name="L:XMLVAR_TANK_QUANTITY_Test_IsHeld" unit="number"/>
-				<Constant>1</Constant>
-			 </Equal>
-		</Or>
-      </Condition>
-      <Condition Suffix="L">
-        <Lower>
-          <Simvar name="FUEL TANK LEFT MAIN QUANTITY" unit="gallon"/>
-          <Constant>9</Constant>
-        </Lower>
-      </Condition>
-      <Condition Suffix="R">
-        <Lower>
-          <Simvar name="FUEL TANK RIGHT MAIN QUANTITY" unit="gallon"/>
-          <Constant>9</Constant>
-        </Lower>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>FUEL IMBALANCE</Text>
-      <Condition>
-        <Inequal tolerance="15">
-			<Simvar name="FUEL TANK LEFT MAIN QUANTITY" unit="gallon"/>
-			<Simvar name="FUEL TANK RIGHT MAIN QUANTITY" unit="gallon"/>
-		</Inequal>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>LOW LVL FAIL</Text>
-      <Condition Suffix="L-R">
-        <!-- TODO -->
-      </Condition>
-      <Condition Suffix="L">
-        <!-- TODO -->
-      </Condition>
-      <Condition Suffix="R">
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>BAT OFF</Text>
-      <Condition>
-	  <Not>
-		<Simvar name="ELECTRICAL MASTER BATTERY" unit="Bool"/>
-	  </Not>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>BAT AMP</Text>
-      <Condition>
-        <Greater>
-			<Simvar name="ELECTRICAL BATTERY BUS AMPS" unit="amperes"/>
-			<Constant>50</Constant>
-		</Greater>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>L GEN</Text>
-      <Condition>
-		<Not>
-		  <Simvar name="GENERAL ENG MASTER ALTERNATOR:1" unit="Bool"/>
-		</Not>
-      </Condition>
-    </Annunciation>
-	
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>R GEN</Text>
-      <Condition>
-		<Not>
-		  <Simvar name="GENERAL ENG MASTER ALTERNATOR:2" unit="Bool"/>
-		</Not>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>LOW VOLTAGE</Text>
-      <Condition>
-        <Lower>
-			<Simvar name="ELECTRICAL MAIN BUS VOLTAGE" unit="volts"/>
-			<Constant>24.5</Constant>
-		</Lower>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>BLEED OFF</Text>
-      <Condition>
-		<Equal>
-			<Simvar name="BLEED AIR SOURCE CONTROL" unit="Enum"/>
-			<Constant>1</Constant>
-		</Equal>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>USE OXYGEN MASK</Text>
-      <Condition>
-        <Greater>
-			<Simvar name="PRESSURIZATION CABIN ALTITUDE" unit="feet"/>
-			<Constant>10000</Constant>
-		</Greater>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>VACUUM LOW</Text>
-      <Condition>
-        <Equal>
-			<Simvar name="PARTIAL PANEL VACUUM" unit="Enum"/>
-			<Constant>1</Constant>
-		</Equal>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PROP DEICE FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>INERT SEP FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PITOT NO HT </Text>
-      <Condition Suffix="L-R">
-        <And>
-			<Greater>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Greater>
-			<Not>
+	<Annunciations>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>FUEL OFF</Text>
+			<Condition>
+				<Equal>
+					<Simvar name="FUEL TANK SELECTOR:1" unit="number"/>
+					<Constant>0</Constant>
+				</Equal>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>FUEL PRESS</Text>
+			<Condition>
+				<LowerEqual>
+					<Simvar name="GENERAL ENG FUEL PRESSURE:1" unit="psi"/>
+					<Constant>10</Constant>
+				</LowerEqual>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>OIL PRESS</Text>
+			<Condition>
+				<LowerEqual>
+					<Simvar name="ENG OIL PRESSURE:1" unit="psi"/>
+					<Constant>60</Constant>
+				</LowerEqual>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>ITT</Text>
+			<Condition>
 				<Or>
-					<Simvar name="L:XMLVAR_Pitot_1" unit="Bool"/>
-					<Simvar name="L:XMLVAR_Pitot_2" unit="Bool"/>
+					<Greater>
+						<Simvar name="TURB ENG ITT:1" unit="celsius"/>
+						<Constant>1000</Constant>
+					</Greater>
+					<Timer time="5">
+						<Greater>
+							<Simvar name="TURB ENG ITT:1" unit="celsius"/>
+							<Constant>870</Constant>
+						</Greater>
+					</Timer>
+					<Timer time="20">
+						<Greater>
+							<Simvar name="TURB ENG ITT:1" unit="celsius"/>
+							<Constant>840</Constant>
+						</Greater>
+					</Timer>
 				</Or>
-			</Not>
-		</And>
-      </Condition>
-      <Condition Suffix="L">
-		<And>
-			<Greater>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Greater>
-			<Not>
-				<Simvar name="L:XMLVAR_Pitot_1" unit="Bool"/>
-			</Not>
-		</And>
-      </Condition>
-      <Condition Suffix="R">
-        <And>
-			<Greater>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Greater>
-			<Not>
-				<Simvar name="L:XMLVAR_Pitot_2" unit="Bool"/>
-			</Not>
-		</And>
-      </Condition>
-    </Annunciation>
-    
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PITOT HT ON </Text>
-      <Condition Suffix="L-R">
-		<And>
-			<Lower>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Lower>
-			<And>
-				<Simvar name="L:XMLVAR_Pitot_1" unit="Bool"/>
-				<Simvar name="L:XMLVAR_Pitot_2" unit="Bool"/>
-			</And>
-		</And>
-      </Condition>
-      <Condition Suffix="L">
-		<And>
-            <Lower>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Lower>
-			<Simvar name="L:XMLVAR_Pitot_1" unit="Bool"/>
-		</And>
-      </Condition>
-      <Condition Suffix="R">
-		<And>
-        	<Lower>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Lower>
-			<Simvar name="L:XMLVAR_Pitot_2" unit="Bool"/>
-		</And>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>FRONT CARGO DOOR</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>GPU DOOR</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-	
-	<Annunciation>
-      <Type>Caution</Type>
-      <Text>IGNITION</Text>
-      <Condition>
-		<Or>
-			<Simvar name="TURB ENG IS IGNITING:1" unit="Bool"/>
-			<Simvar name="TURB ENG IS IGNITING:2" unit="Bool"/>
-		</Or>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>MAX DIFF MODE</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>CPCS BACK UP MODE</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>AP ON YD OFF</Text>
-      <Condition>
-        <And>
-			<Simvar name="AUTOPILOT MASTER" unit="Bool"/>
-			<Not>
-				<Simvar name="AUTOPILOT YAW DAMPER" unit="Bool"/>
-			</Not>
-		</And>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>APR DWNGRADE</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>CARGO DOOR</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>ESP DEGRADED - AOA</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>ESP DEGRADED - IAS</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>ESP FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>GAS DEGRADED</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>GAS EVENT</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>GWX FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>INERT SEP FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>INERT SEP ON</Text>
-      <Condition>
-        <Simvar name="ENG ANTI ICE:1" unit="Bool"/>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>NG HI</Text>
-      <Condition>
-		<Greater>
-			<Simvar name="TURB ENG N1:1" unit="percent"/>
-			<Constant>103</Constant>
-		</Greater>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PRESSU BACKUP</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PROP DEICE ON</Text>
-      <Condition>
-        <And>
-			<Lower>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Lower>
-			<Simvar name="PROP DEICE SWITCH:1" unit="Bool"/>
-		</And>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>REAR CARGO DOOR</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>TCAS FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>TRAFFIC FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>XPDR1 ADS-B FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>XPDR1 FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>XPDR2 ADS-B FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>XPDR2 FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Advisory</Type>
-      <Text>EDM OVERRIDE</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Advisory</Type>
-      <Text>ESP OFF</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Advisory</Type>
-      <Text>INERT SEP ON</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Advisory</Type>
-      <Text>MAX DIFF MODE</Text>
-      <Condition>
-        <Equal>
-			<Simvar name="BLEED AIR SOURCE CONTROL" unit="Enum"/>
-			<Constant>3</Constant>
-		</Equal>
-      </Condition>
-    </Annunciation>
-
-    <Annunciation>
-      <Type>Advisory</Type>
-      <Text>STARTER</Text>
-      <Condition>
-        <Simvar name="GENERAL ENG STARTER ACTIVE:1" unit="Bool"/>
-      </Condition>
-    </Annunciation>
-
-  </Annunciations>
-  
-  <!-- Voices Alerts -->
-  
-  <VoicesAlerts>
-  
-	<Alert>
-		<Type>SoundOnly</Type>
-		<SoundEvent>aural_500ft</SoundEvent>
-		<Condition>
-			<StateMachine>
-				<State id="Under" value="0">
-					<Transition to="Over">
-						<GreaterEqual>
-							<Simvar name="PLANE ALT ABOVE GROUND MINUS CG" unit="feet"/>
-							<Constant>510</Constant>
-						</GreaterEqual>
-					</Transition>
-				</State>
-				<State id="Over" value="0">
-					<Transition to="Alerting">
-						<LowerEqual>
-							<Simvar name="PLANE ALT ABOVE GROUND MINUS CG" unit="feet"/>
-							<Constant>500</Constant>
-						</LowerEqual>
-					</Transition>
-				</State>
-				<State id="Alerting" value="1">
-					<Transition to="Under">
-						<Constant>1</Constant>
-					</Transition>
-				</State>
-			</StateMachine>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>SoundOnly</Type>
-		<SoundEvent>aural_stall</SoundEvent>
-		<Condition>
-			<Simvar name="STALL WARNING" unit="Bool"/>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>Warning</Type>
-		<ShortText>PULL UP</ShortText>
-		<LongText>PULL UP</LongText>
-		<SoundEvent>aural_pull_up</SoundEvent>
-		<Condition>
-			<And>
-				<LinearMultiPoint>
-					<Table>
-						<ReferencePoints>1160,2320,4930,12000</ReferencePoints>
-						<Maximums>0,1070,2380,4285</Maximums>
-					</Table>
-					<Param>
-						<Multiply>
-							<Simvar name="VERTICAL SPEED" unit="feet per minute"/>
-							<Constant>-1</Constant>
-						</Multiply>
-					</Param>
-					<Param>
-						<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
-					</Param>
-				</LinearMultiPoint>
-				<Not>
-					<Simvar name="SIM ON GROUND" unit="bool"/>
-				</Not>
-			</And>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>SoundOnly</Type>
-		<SoundEvent>aural_overspeed</SoundEvent>
-		<Condition>
-			<Simvar name="OVERSPEED WARNING" unit="bool"/>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>Caution</Type>
-		<ShortText>TERRAIN</ShortText>
-		<LongText>SINK RATE</LongText>
-		<SoundEvent>aural_sink_rate</SoundEvent>
-		<Condition>
-			<And>
-				<LinearMultiPoint>
-					<Table>
-						<ReferencePoints>1160,2320,4930,12000</ReferencePoints>
-						<Minimums>0,1070,2380,4285</Minimums>
-						<Maximums>0,1460,2980,5360</Maximums>
-					</Table>
-					<Param>
-						<Multiply>
-							<Simvar name="VERTICAL SPEED" unit="feet per minute"/>
-							<Constant>-1</Constant>
-						</Multiply>
-					</Param>
-					<Param>
-						<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
-					</Param>
-				</LinearMultiPoint>
-				<Not>
-					<Simvar name="SIM ON GROUND" unit="bool"/>
-				</Not>
-			</And>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>Caution</Type>
-		<ShortText>TERRAIN</ShortText>
-		<LongText>DONT' SINK</LongText>
-		<SoundEvent>aural_dont_sink</SoundEvent>
-		<Condition>
-			<And>
-				<Lower>
-					<DistanceFromOrigin/>
-					<Constant>5</Constant>
-				</Lower>
-				<Lower>
-					<HeadingChangeFromDeparture/>
-					<Constant>110</Constant>
-				</Lower>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>FLAPS ASYM</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>ELEC FEATH FAULT</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>BLEED TEMP</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>CABIN ALTITUDE</Text>
+			<Condition>
+				<Greater>
+					<Simvar name="PRESSURIZATION CABIN ALTITUDE" unit="feet"/>
+					<Constant>10000</Constant>
+				</Greater>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>EDM</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>CABIN DIFF PRESS</Text>
+			<Condition>
+				<Greater>
+					<Simvar name="PRESSURIZATION PRESSURE DIFFERENTIAL" unit="psi"/>
+					<Constant>6.2</Constant>
+				</Greater>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>DOOR</Text>
+			<Condition>
+				<Greater>
+					<Simvar name="EXIT OPEN:0" unit="percent"/>
+					<Constant>0</Constant>
+				</Greater>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>USP ACTIVE</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>GEAR UNSAFE</Text>
+			<Condition>
+				<And>
+					<Not>
+						<Simvar name="GEAR HANDLE POSITION" unit="Bool"/>
+					</Not>
+					<Simvar name="SIM ON GROUND" unit="Bool"/>
+				</And>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>PARK BRAKE</Text>
+			<Condition>
+				<Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>OXYGEN</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>ABORT APR</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>AURAL WRN FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>AURAL WARN 1 CHNL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>FIRE</Text>
+			<Condition>
+				<Simvar name="ENG ON FIRE:1" unit="Bool"/>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>O2 CYL CLOSED</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Warning</Type>
+			<Text>PRESSU OFF</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>OIL PRESS</Text>
+			<Condition>
+				<And>
+					<LowerEqual>
+						<Simvar name="ENG OIL PRESSURE:1" unit="psi"/>
+						<Constant>105</Constant>
+					</LowerEqual>
+					<GreaterEqual>
+						<Simvar name="ENG OIL PRESSURE:1" unit="psi"/>
+						<Constant>60</Constant>
+					</GreaterEqual>
+				</And>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>FUEL LOW </Text>
+			<Condition Suffix="L-R">
 				<Or>
+					<And>
+						<Lower>
+							<Simvar name="FUEL TANK LEFT MAIN QUANTITY" unit="gallon"/>
+							<Constant>9</Constant>
+						</Lower>
+						<Lower>
+							<Simvar name="FUEL TANK RIGHT MAIN QUANTITY" unit="gallon"/>
+							<Constant>9</Constant>
+						</Lower>
+					</And>
+					<Equal>
+						<Simvar name="L:XMLVAR_TANK_QUANTITY_Test_IsHeld" unit="number"/>
+						<Constant>1</Constant>
+					</Equal>
+				</Or>
+			</Condition>
+			<Condition Suffix="L">
+				<Lower>
+					<Simvar name="FUEL TANK LEFT MAIN QUANTITY" unit="gallon"/>
+					<Constant>9</Constant>
+				</Lower>
+			</Condition>
+			<Condition Suffix="R">
+				<Lower>
+					<Simvar name="FUEL TANK RIGHT MAIN QUANTITY" unit="gallon"/>
+					<Constant>9</Constant>
+				</Lower>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>FUEL IMBALANCE</Text>
+			<Condition>
+				<Inequal tolerance="15">
+					<Simvar name="FUEL TANK LEFT MAIN QUANTITY" unit="gallon"/>
+					<Simvar name="FUEL TANK RIGHT MAIN QUANTITY" unit="gallon"/>
+				</Inequal>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>LOW LVL FAIL</Text>
+			<Condition Suffix="L-R">
+				<!-- TODO -->
+			</Condition>
+			<Condition Suffix="L">
+				<!-- TODO -->
+			</Condition>
+			<Condition Suffix="R">
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>BAT OFF</Text>
+			<Condition>
+				<Not>
+					<Simvar name="ELECTRICAL MASTER BATTERY" unit="Bool"/>
+				</Not>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>BAT AMP</Text>
+			<Condition>
+				<Greater>
+					<Simvar name="ELECTRICAL BATTERY BUS AMPS" unit="amperes"/>
+					<Constant>50</Constant>
+				</Greater>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>L GEN</Text>
+			<Condition>
+				<Not>
+					<Simvar name="GENERAL ENG MASTER ALTERNATOR:1" unit="Bool"/>
+				</Not>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>R GEN</Text>
+			<Condition>
+				<Not>
+					<Simvar name="GENERAL ENG MASTER ALTERNATOR:2" unit="Bool"/>
+				</Not>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>LOW VOLTAGE</Text>
+			<Condition>
+				<Lower>
+					<Simvar name="ELECTRICAL MAIN BUS VOLTAGE" unit="volts"/>
+					<Constant>24.5</Constant>
+				</Lower>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>BLEED OFF</Text>
+			<Condition>
+				<Equal>
+					<Simvar name="BLEED AIR SOURCE CONTROL" unit="Enum"/>
+					<Constant>1</Constant>
+				</Equal>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>USE OXYGEN MASK</Text>
+			<Condition>
+				<Greater>
+					<Simvar name="PRESSURIZATION CABIN ALTITUDE" unit="feet"/>
+					<Constant>10000</Constant>
+				</Greater>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>VACUUM LOW</Text>
+			<Condition>
+				<Equal>
+					<Simvar name="PARTIAL PANEL VACUUM" unit="Enum"/>
+					<Constant>1</Constant>
+				</Equal>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>PROP DEICE FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>INERT SEP FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>PITOT NO HT </Text>
+			<Condition Suffix="L-R">
+				<And>
+					<Greater>
+						<Simvar name="PROP RPM:1" unit="rpm"/>
+						<Constant>1</Constant>
+					</Greater>
+					<Not>
+						<Or>
+							<Simvar name="PITOT HEAT SWITCH:1" unit="Bool"/>
+							<Simvar name="PITOT HEAT SWITCH:2" unit="Bool"/>
+						</Or>
+					</Not>
+				</And>
+			</Condition>
+			<Condition Suffix="L">
+				<And>
+					<Greater>
+						<Simvar name="PROP RPM:1" unit="rpm"/>
+						<Constant>1</Constant>
+					</Greater>
+					<Not>
+						<Simvar name="PITOT HEAT SWITCH:1" unit="Bool"/>
+					</Not>
+				</And>
+			</Condition>
+			<Condition Suffix="R">
+				<And>
+					<Greater>
+						<Simvar name="PROP RPM:1" unit="rpm"/>
+						<Constant>1</Constant>
+					</Greater>
+					<Not>
+						<Simvar name="PITOT HEAT SWITCH:2" unit="Bool"/>
+					</Not>
+				</And>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>PITOT HT ON </Text>
+			<Condition Suffix="L-R">
+				<And>
+					<Lower>
+						<Simvar name="PROP RPM:1" unit="rpm"/>
+						<Constant>1</Constant>
+					</Lower>
+					<And>
+						<Simvar name="PITOT HEAT SWITCH:1" unit="Bool"/>
+						<Simvar name="PITOT HEAT SWITCH:2" unit="Bool"/>
+					</And>
+				</And>
+			</Condition>
+			<Condition Suffix="L">
+				<And>
+					<Lower>
+						<Simvar name="PROP RPM:1" unit="rpm"/>
+						<Constant>1</Constant>
+					</Lower>
+					<Simvar name="PITOT HEAT SWITCH:1" unit="Bool"/>
+				</And>
+			</Condition>
+			<Condition Suffix="R">
+				<And>
+					<Lower>
+						<Simvar name="PROP RPM:1" unit="rpm"/>
+						<Constant>1</Constant>
+					</Lower>
+					<Simvar name="PITOT HEAT SWITCH:2" unit="Bool"/>
+				</And>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>FRONT CARGO DOOR</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>GPU DOOR</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>IGNITION</Text>
+			<Condition>
+				<Or>
+					<And>
+						<Simvar name="TURB ENG IS IGNITING:1" unit="Bool"/>
+						<Simvar name="GENERAL ENG STARTER ACTIVE:1" unit="Bool"/>
+					</And>
+					<And>
+						<Simvar name="TURB ENG IS IGNITING:2" unit="Bool"/>
+						<Simvar name="GENERAL ENG STARTER ACTIVE:2" unit="Bool"/>
+					</And>
+				</Or>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>MAX DIFF MODE</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>CPCS BACK UP MODE</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>AP ON YD OFF</Text>
+			<Condition>
+				<And>
+					<Simvar name="AUTOPILOT MASTER" unit="Bool"/>
+					<Not>
+						<Simvar name="AUTOPILOT YAW DAMPER" unit="Bool"/>
+					</Not>
+				</And>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>APR DWNGRADE</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>CARGO DOOR</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>ESP DEGRADED - AOA</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>ESP DEGRADED - IAS</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>ESP FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>GAS DEGRADED</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>GAS EVENT</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>GWX FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>INERT SEP FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>INERT SEP ON</Text>
+			<Condition>
+				<Simvar name="ENG ANTI ICE:1" unit="Bool"/>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>NG HI</Text>
+			<Condition>
+				<Greater>
+					<Simvar name="TURB ENG N1:1" unit="percent"/>
+					<Constant>103</Constant>
+				</Greater>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>PRESSU BACKUP</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>PROP DEICE ON</Text>
+			<Condition>
+				<And>
+					<Lower>
+						<Simvar name="PROP RPM:1" unit="rpm"/>
+						<Constant>1</Constant>
+					</Lower>
+					<Simvar name="PROP DEICE SWITCH:1" unit="Bool"/>
+				</And>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>REAR CARGO DOOR</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>TCAS FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>TRAFFIC FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>XPDR1 ADS-B FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>XPDR1 FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>XPDR2 ADS-B FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Caution</Type>
+			<Text>XPDR2 FAIL</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Advisory</Type>
+			<Text>EDM OVERRIDE</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Advisory</Type>
+			<Text>ESP OFF</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Advisory</Type>
+			<Text>INERT SEP ON</Text>
+			<Condition>
+				<!-- TODO -->
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Advisory</Type>
+			<Text>MAX DIFF MODE</Text>
+			<Condition>
+				<Equal>
+					<Simvar name="BLEED AIR SOURCE CONTROL" unit="Enum"/>
+					<Constant>3</Constant>
+				</Equal>
+			</Condition>
+		</Annunciation>
+		<Annunciation>
+			<Type>Advisory</Type>
+			<Text>STARTER</Text>
+			<Condition>
+				<Simvar name="GENERAL ENG STARTER ACTIVE:1" unit="Bool"/>
+			</Condition>
+		</Annunciation>
+	</Annunciations>
+	<!-- Voices Alerts -->
+	<VoicesAlerts>
+		<Alert>
+			<Type>SoundOnly</Type>
+			<SoundEvent>aural_500ft</SoundEvent>
+			<Condition>
+				<StateMachine>
+					<State id="Under" value="0">
+						<Transition to="Over">
+							<GreaterEqual>
+								<Simvar name="PLANE ALT ABOVE GROUND MINUS CG" unit="feet"/>
+								<Constant>510</Constant>
+							</GreaterEqual>
+						</Transition>
+					</State>
+					<State id="Over" value="0">
+						<Transition to="Alerting">
+							<LowerEqual>
+								<Simvar name="PLANE ALT ABOVE GROUND MINUS CG" unit="feet"/>
+								<Constant>500</Constant>
+							</LowerEqual>
+						</Transition>
+					</State>
+					<State id="Alerting" value="1">
+						<Transition to="Under">
+							<Constant>1</Constant>
+						</Transition>
+					</State>
+				</StateMachine>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>SoundOnly</Type>
+			<SoundEvent>aural_stall</SoundEvent>
+			<Condition>
+				<Simvar name="STALL WARNING" unit="Bool"/>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>Warning</Type>
+			<ShortText>PULL UP</ShortText>
+			<LongText>PULL UP</LongText>
+			<SoundEvent>aural_pull_up</SoundEvent>
+			<Condition>
+				<And>
 					<LinearMultiPoint>
 						<Table>
-							<ReferencePoints>0,500,7000</ReferencePoints>
-							<Maximums>50,700,700</Maximums>
-								<Minimums>50,50,50</Minimums>
+							<ReferencePoints>1160,2320,4930,12000</ReferencePoints>
+							<Maximums>0,1070,2380,4285</Maximums>
 						</Table>
 						<Param>
 							<Multiply>
@@ -1451,81 +1296,153 @@
 							<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
 						</Param>
 					</LinearMultiPoint>
+					<Not>
+						<Simvar name="SIM ON GROUND" unit="bool"/>
+					</Not>
+				</And>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>SoundOnly</Type>
+			<SoundEvent>aural_overspeed</SoundEvent>
+			<Condition>
+				<Simvar name="OVERSPEED WARNING" unit="bool"/>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>Caution</Type>
+			<ShortText>TERRAIN</ShortText>
+			<LongText>SINK RATE</LongText>
+			<SoundEvent>aural_sink_rate</SoundEvent>
+			<Condition>
+				<And>
 					<LinearMultiPoint>
 						<Table>
-							<ReferencePoints>10,70,150</ReferencePoints>
-							<Maximums>50,700,700</Maximums>
-								<Minimums>50,50,50</Minimums>
+							<ReferencePoints>1160,2320,4930,12000</ReferencePoints>
+							<Minimums>0,1070,2380,4285</Minimums>
+							<Maximums>0,1460,2980,5360</Maximums>
 						</Table>
 						<Param>
-							<Substract>
-								<MaxSinceStart>
-									<Simvar name="PLANE ALTITUDE" unit="feet"/>
-								</MaxSinceStart>
-								<Simvar name="PLANE ALTITUDE" unit="feet"/>
-							</Substract>
+							<Multiply>
+								<Simvar name="VERTICAL SPEED" unit="feet per minute"/>
+								<Constant>-1</Constant>
+							</Multiply>
 						</Param>
 						<Param>
 							<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
 						</Param>
 					</LinearMultiPoint>
-				</Or>
-			</And>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>SoundOnly</Type>
-		<SoundEvent>aural_landing_gear</SoundEvent>
-		<Condition>
-			<And>
-				<Simvar name="IS GEAR RETRACTABLE" unit="Boolean"/>
-				<Not>
-					<Simvar name="GEAR HANDLE POSITION" unit="Boolean"/>
-				</Not>
-				<Or>
+					<Not>
+						<Simvar name="SIM ON GROUND" unit="bool"/>
+					</Not>
+				</And>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>Caution</Type>
+			<ShortText>TERRAIN</ShortText>
+			<LongText>DONT' SINK</LongText>
+			<SoundEvent>aural_dont_sink</SoundEvent>
+			<Condition>
+				<And>
+					<Lower>
+						<DistanceFromOrigin/>
+						<Constant>5</Constant>
+					</Lower>
+					<Lower>
+						<HeadingChangeFromDeparture/>
+						<Constant>110</Constant>
+					</Lower>
+					<Or>
+						<LinearMultiPoint>
+							<Table>
+								<ReferencePoints>0,500,7000</ReferencePoints>
+								<Maximums>50,700,700</Maximums>
+								<Minimums>50,50,50</Minimums>
+							</Table>
+							<Param>
+								<Multiply>
+									<Simvar name="VERTICAL SPEED" unit="feet per minute"/>
+									<Constant>-1</Constant>
+								</Multiply>
+							</Param>
+							<Param>
+								<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
+							</Param>
+						</LinearMultiPoint>
+						<LinearMultiPoint>
+							<Table>
+								<ReferencePoints>10,70,150</ReferencePoints>
+								<Maximums>50,700,700</Maximums>
+								<Minimums>50,50,50</Minimums>
+							</Table>
+							<Param>
+								<Substract>
+									<MaxSinceStart>
+										<ResetCondition>
+											<Simvar name="SIM ON GROUND" unit="bool"/>
+										</ResetCondition>
+										<Simvar name="PLANE ALTITUDE" unit="feet"/>
+									</MaxSinceStart>
+									<Simvar name="PLANE ALTITUDE" unit="feet"/>
+								</Substract>
+							</Param>
+							<Param>
+								<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
+							</Param>
+						</LinearMultiPoint>
+					</Or>
+				</And>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>SoundOnly</Type>
+			<SoundEvent>aural_landing_gear</SoundEvent>
+			<Condition>
+				<And>
+					<Simvar name="IS GEAR RETRACTABLE" unit="Boolean"/>
+					<Not>
+						<Simvar name="GEAR HANDLE POSITION" unit="Boolean"/>
+					</Not>
+					<Or>
+						<Greater>
+							<Simvar name="FLAPS HANDLE INDEX" unit="number"/>
+							<Constant>1</Constant>
+						</Greater>
+						<Equal>
+							<Simvar name="GENERAL ENG THROTTLE LEVER POSITION:1" unit="percent"/>
+							<Constant>0</Constant>
+						</Equal>
+					</Or>
+				</And>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>Test</Type>
+			<ShortText>TAWS TEST</ShortText>
+			<Condition>
+				<And>
+					<Lower>
+						<TimeSinceStart/>
+						<Constant>30000</Constant>
+					</Lower>
+					<InstrumentWasOff/>
+				</And>
+			</Condition>
+		</Alert>
+		<Alert>
+			<Type>SoundOnly</Type>
+			<SoundEvent>aural_taws_system_test_ok</SoundEvent>
+			<Condition>
+				<And>
 					<Greater>
-						<Simvar name="FLAPS HANDLE INDEX" unit="number"/>
-						<Constant>1</Constant>
+						<TimeSinceStart/>
+						<Constant>30000</Constant>
 					</Greater>
-					<Equal>
-						<Simvar name="GENERAL ENG THROTTLE LEVER POSITION:1" unit="percent"/>
-						<Constant>0</Constant>
-					</Equal>
-				</Or>
-			</And>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>Test</Type>
-		<ShortText>TAWS TEST</ShortText>
-		<Condition>
-			<And>
-				<Lower>
-					<TimeSinceStart/>
-					<Constant>30000</Constant>
-				</Lower>
-				<InstrumentWasOff/>
-			</And>
-		</Condition>
-	</Alert>
-	
-	<Alert>
-		<Type>SoundOnly</Type>
-		<SoundEvent>aural_taws_system_test_ok</SoundEvent>
-		<Condition>
-			<And>
-				<Greater>
-					<TimeSinceStart/>
-					<Constant>30000</Constant>
-				</Greater>
-				<InstrumentWasOff/>
-			</And>
-		</Condition>
-		<Once>True</Once>
-	</Alert>
-
-  </VoicesAlerts>
-  
+					<InstrumentWasOff/>
+				</And>
+			</Condition>
+			<Once>True</Once>
+		</Alert>
+	</VoicesAlerts>
 </PlaneHTMLConfig>
