@@ -11,7 +11,7 @@
         <Checkpoint ReferenceId="Parking_Brake_Set"/>
         <Checkpoint ReferenceId="POWER_LEVERS_IDLE_2ENGINES"/>
         <Checkpoint ReferenceId="PROP_RPM_LEVER_MAX_2_ENGINES"/>
-        <Checkpoint ReferenceId="CONDITION_LEVERS_FUEL_CUTOFF"/>
+        <Checkpoint ReferenceId="CONDITION_LEVERS_FUEL_CUTOFF_Template"/>
         <Checkpoint ReferenceId="Battery_Switch_On"/>
       </Page>
 	  
@@ -19,8 +19,18 @@
       <Page SubjectTT="TT:GAME.CHECKLIST_STARTING_ENGINE">
         
 
-        <Checkpoint ReferenceId="RIGHT_IGNITION_AND_ENGINE_START_ON_TURBOPROP"/>
-        <Checkpoint ReferenceId="RIGHT_COND_LEVER_LOW_IDLE_WHEN_N1_12">
+        <Checkpoint ReferenceId="IGNITION_AND_ENGINE_START_ON_TURBOPROP_TEMPLATE">
+			<SetTemplateValue Id="Ignition_Switch_State">
+				<Val Code="(A:TURB ENG IGNITION SWITCH EX1:2, Enum)"/>
+			</SetTemplateValue>
+			<SetTemplateValue Id="Ignition_Switch_Target_Value" Value="2.0"/>
+			<SetTemplateValue Id="Starter_State">
+				<Val Code="(A:GENERAL ENG STARTER:2, Boolean)"/>
+			</SetTemplateValue>
+			<SetTemplateAction Id="Switch_Ignition_Starter_On" Copilot="True" Condition="TestValueFalse" Once="true" EventID="SET_STARTER2_HELD" EventParam="1"/>
+			<Instrument id="ENGINE_Switch_Starter2"/>
+		</Checkpoint>
+        <Checkpoint ReferenceId="RIGHT_COND_LEVER_LOW_IDLE_WHEN_N1_12_Template">
         <ForceCamera name="Instruments05"/>
         </Checkpoint>
         <Checkpoint ReferenceId="ITT_AND_N1_MONITOR">
@@ -57,18 +67,35 @@
           </ForceCamera>
         </Checkpoint>
         <Checkpoint ReferenceId="RIGHT_IGNITION_AND_ENGINE_START_OFF_N1_50_TURBOPROP"/>
-        <Checkpoint ReferenceId="RIGHT_CONDITION_LEVER_HI_IDLE"/>
+        <Checkpoint ReferenceId="RIGHT_CONDITION_LEVER_HI_IDLE_Template"/>
         <Checkpoint ReferenceId="RIGHT_GENERATOR_ON"/>
-        <Checkpoint ReferenceId="LEFT_ENGINE_START_REPEAT_PROCEDURE_TURBOPROP"/>
+        <Checkpoint ReferenceId="LEFT_ENGINE_START_REPEAT_PROCEDURE_TURBOPROP_Template">
+			<SetTemplateValue Id="Target_value_Ignition_Switch" Value="2.0"/>
+		</Checkpoint>
        
        </Page>
 	  
       <!-- After starting engine 1/2 -->
       <Page SubjectTT="TT:GAME.CHECKLIST_AFTER_STARTING_ENGINE_1">
-        <Checkpoint ReferenceId="Avionics_Bus_Switch_On">
-			<SetTemplateAction Id="Toggle Avionics Bus" Copilot="True" Condition="TestValueFalse" Once="true" Code="1 4 (&gt;K:2:ELECTRICAL_BUS_TO_BUS_CONNECTION_TOGGLE) 26 (&gt;K:ELECTRICAL_CIRCUIT_TOGGLE)"/>
+		<Checkpoint Id="Avionics_Bus_Switch_On">
+			<!-- avionics master switch CP for electrical KH planes -->
+			<SetTemplateValue Id="Circuit Avionics">
+				<Val SimVarName="CIRCUIT AVIONICS ON" Units="Boolean"/>
+			</SetTemplateValue>
+			<SetTemplateAction Id="Toggle Avionics Bus" Copilot="True" Condition="TestValueFalse" Once="true" Code="26 (&gt;K:ELECTRICAL_CIRCUIT_TOGGLE)"/>
+			<!--	NOTE : Avionics circuit's id  varies depending on the plane and can be found in systems.cfg
+			In case the switch is linked to several circuits, add them all one after the other in the Code description. 	-->
+			<Clue name="TT:CLUE.AVIONICS_MASTER_SWITCH_ON"/>
+			<CheckpointDesc SubjectTT="TT:GAME.CHECKLIST_AVIONICS_MASTER_SWITCH" ExpectationTT="TT:GAME.CHECKLIST_ON"/>
+			<Test>
+				<TestValue>
+					<Val UseTemplateValue="Circuit Avionics"/>
+				</TestValue>
+				<Action UseTemplateAction="Toggle Avionics Bus"/>
+				<Instrument Id="ELECTRICAL_Switch_Avionics_Master"/>
+			</Test>
 		</Checkpoint>
-        <Checkpoint ReferenceId="LIGHTS_AS_REQUIRED_AIRLINER"/>
+        <Checkpoint ReferenceId="LIGHTS_AS_REQUIRED_KING_AIR"/>
         <Checkpoint ReferenceId="Parking_Brake_Release"/>
       </Page>
     </Step>

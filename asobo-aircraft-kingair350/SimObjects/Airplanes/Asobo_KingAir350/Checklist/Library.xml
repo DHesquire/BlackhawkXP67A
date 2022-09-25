@@ -3,51 +3,71 @@
 	<Checklist.CheckpointLibrary>
 
     <Checkpoint Id="LIGHTS_AS_REQUIRED_KING_AIR">
-      <Clue name="TT:CLUE.LIGHTS_AS_REQUIRED"/>
-      <CheckpointDesc SubjectTT="TT:GAME.CHECKLIST_LIGHTS" ExpectationTT="TT:GAME.CHECKLIST_AS_REQUIRED"/>
-      <Sequence SeqType="Ordered">
-        <Test>
-          <TestValue>
-            <Operator OpType="AND">
-              <Val SimVarName="LIGHT STROBE" Units="Boolean"/>
-              <Val SimVarName="LIGHT STROBE ON" Units="Boolean"/>
-            </Operator>
-          </TestValue>
-          <Instrument Id="LIGHTING_Switch_Light_Strobe"/>
-          <Action Copilot="True" Condition="TestValueFalse" Once="true" EventID="STROBES_TOGGLE"/>
-        </Test>
-        <Test>
-          <TestValue>
-            <Val SimVarName="LIGHT NAV" Units="Boolean"/>
-          </TestValue>
-          <Action Copilot="True" Condition="TestValueFalse" Once="true" EventID="TOGGLE_NAV_LIGHTS"/>
-          <Instrument Id="LIGHTING_Switch_Light_Navigation"/>
-        </Test>
-        <Test>
-          <TestValue>
-            <Val SimVarName="LIGHT LOGO" Units="Boolean"/>
-          </TestValue>
-          <Action Copilot="True" Condition="TestValueFalse" Once="true" EventID="TOGGLE_LOGO_LIGHTS"/>
-          <Instrument Id="OVHD_PUSH_LIGHTS_LOGO"/>
-        </Test>
-        <Sequence SeqType="Unordered">
-          <Test>
-            <!-- here we sum booleans : 2 means Day and light off; 1 means day XOR light off; 0 means not day and light on. We then return 1 if sum is different from 1-->
-            <TestValue>
-              <Val Code="(E:TIME OF DAY, enum) 1 == (A:LIGHT TAXI ON, Bool) (A:LIGHT TAXI, Bool) + 2 &lt; + 1 !="/>
-            </TestValue>
-            <Instrument Id="LIGHTING_Switch_Light_Taxi"/>
-            <Action Copilot="True" Condition="TestValueFalse" Once="true" EventID="TOGGLE_TAXI_LIGHTS"/>
-          </Test>
-          <Test>
-            <TestValue>
-              <Val Code="(E:TIME OF DAY, enum) 1 == (A:LIGHT LANDING ON, Bool) (A:LIGHT LANDING, Bool) + 2 &lt; + 1 !="/>
-            </TestValue>
-            <Instrument Id="LIGHTING_Switch_Light_Landing"/>
-            <Action Copilot="True" Condition="TestValueFalse" Once="true" EventID="LANDING_LIGHTS_TOGGLE"/>
-          </Test>
-        </Sequence>
-      </Sequence>
+		<Clue name="TT:CLUE.LIGHTS_ON"/>
+		<CheckpointDesc SubjectTT="TT:GAME.CHECKLIST_LIGHTS" ExpectationTT="TT:GAME.CHECKLIST_ON"/>
+		<Sequence SeqType="Ordered">
+			<Test>
+				<TestValue>
+					<Val Code="(B:LIGHTING_STROBE_1)"/>
+				</TestValue>
+				<Instrument Id="LIGHTING_Switch_Light_Strobe"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_STROBE_1_Toggle)"/>
+			</Test>
+			<Test>
+				<TestValue>
+					<Val Code="(B:LIGHTING_NAV_1)"/>
+				</TestValue>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_NAV_1_Toggle)"/>
+				<Instrument Id="LIGHTING_Switch_Light_Navigation"/>
+			</Test>
+			<Test>
+				<TestValue>
+					<Val Code="(B:LIGHTING_LOGO_1)"/>
+				</TestValue>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_LOGO_1_Toggle)"/>
+				<Instrument Id="LIGHTING_Switch_Light_Logo"/>
+			</Test>
+			<Test>
+				<TestValue>
+					<Val Code="(B:LIGHTING_TAXI_1)"/>
+				</TestValue>
+				<Instrument Id="LIGHTING_Switch_Light_Taxi"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_TAXI_1_Toggle)"/>
+			</Test>
+			<Test>
+				<TestValue>
+					<Val Code="(B:LIGHTING_WING_1)"/>
+				</TestValue>
+				<Instrument Id="LIGHTING_Switch_Light_Wing"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_WING_1_Toggle)"/>
+			</Test>
+			<Test>
+				<TestValue>
+					<Val Code="(B:LIGHTING_RECOGNITION_1)"/>
+				</TestValue>
+				<Instrument Id="LIGHTING_Switch_Light_Recognition"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_RECOGNITION_1_Toggle)"/>
+			</Test>
+			<Test>
+				<TestValue>
+					<Operator OpType="AND">
+						<Val Code="(B:LIGHTING_LANDING_1)"/>
+						<Val Code="(B:LIGHTING_LANDING_2)"/>
+					</Operator>
+				</TestValue>
+				<Instrument Id="LIGHTING_Switch_Light_Landing1"/>
+				<Instrument Id="LIGHTING_Switch_Light_Landing2"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_LANDING_1_Toggle)"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_LANDING_2_Toggle)"/>
+			</Test>
+			<Test>
+				<TestValue>
+					<Val Code="(B:LIGHTING_BEACON_1)"/>
+				</TestValue>
+				<Instrument Id="LIGHTING_Switch_Light_Beacon"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="(&gt;B:LIGHTING_BEACON_1_Toggle)"/>
+			</Test>
+		</Sequence>
     </Checkpoint>
 
 

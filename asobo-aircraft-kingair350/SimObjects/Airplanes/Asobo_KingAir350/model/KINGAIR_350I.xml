@@ -7,9 +7,9 @@
 		<LOD minSize="110" ModelFile="KINGAIR_350I_LOD0.gltf"/>
 		<LOD minSize="90" ModelFile="KINGAIR_350I_LOD1.gltf"/>
 		<LOD minSize="75" ModelFile="KINGAIR_350I_LOD2.gltf"/>
-		<LOD minSize="50" ModelFile="KINGAIR_350I_LOD3.gltf"/>
-		<LOD minSize="30" ModelFile="KINGAIR_350I_LOD4.gltf"/>
-		<LOD minSize="15" ModelFile="KINGAIR_350I_LOD5.gltf"/>
+		<LOD minSize="40" ModelFile="KINGAIR_350I_LOD3.gltf"/>
+		<LOD minSize="10" ModelFile="KINGAIR_350I_LOD4.gltf"/>
+		<!--LOD minSize="10" ModelFile="KINGAIR_350I_LOD5.gltf"/-->
 		<LOD minSize="1" ModelFile="KINGAIR_350I_LOD6.gltf"/>
 	</LODS>
 	<Behaviors>
@@ -101,7 +101,7 @@
 			</UseTemplate>
 		</Component>
 		<Component ID="LANDING_FX">
-			<UseTemplate Name="ASOBO_LANDING_FX"/>
+			<UseTemplate Name="ASOBO_LANDING_MD_FX"/>
 		</Component>
 	</Behaviors>
 </ModelInfo>
