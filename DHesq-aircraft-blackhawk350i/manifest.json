@@ -6,7 +6,7 @@
     }
   ],
   "content_type": "AIRCRAFT",
-  "title": "Beechcraft King Air 350i - Blackhawk XP67A Engine+",
+  "title": "Beechcraft King Air 350i - Blackhawk XP67A Engine\u002B",
   "manufacturer": "Textron Aviation",
   "creator": "DHesquire",
   "package_version": "0.0.1",
@@ -17,5 +17,5 @@
       "OlderHistory": ""
     }
   },
-  "total_package_size": "00000000000416152282"
+  "total_package_size": "00000000000416125244"
 }
