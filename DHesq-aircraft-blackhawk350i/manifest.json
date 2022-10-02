@@ -6,10 +6,10 @@
     }
   ],
   "content_type": "AIRCRAFT",
-  "title": "Beechcraft King Air 350i",
+  "title": "Beechcraft King Air 350i - Blackhawk XP67A Engine\u002B",
   "manufacturer": "Textron Aviation",
-  "creator": "Asobo Studio",
-  "package_version": "0.1.81",
+  "creator": "DHesquire",
+  "package_version": "0.0.1",
   "minimum_game_version": "1.27.6",
   "release_notes": {
     "neutral": {
@@ -17,5 +17,5 @@
       "OlderHistory": ""
     }
   },
-  "total_package_size": "00000000000416152282"
+  "total_package_size": "00000000000416125750"
 }
