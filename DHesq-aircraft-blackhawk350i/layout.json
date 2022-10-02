@@ -7,8 +7,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/aircraft.cfg",
-      "size": 3191,
-      "date": 133086102119815771
+      "size": 3408,
+      "date": 133086244621214111
     },
     {
       "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/Approach.flt",
@@ -106,139 +106,139 @@
       "date": 133086097804572542
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I.xml",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I.xml",
       "size": 4594,
       "date": 133086097804592542
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior.XML",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior.XML",
       "size": 70530,
       "date": 133086097807022518
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD0.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD0.bin",
       "size": 21409104,
       "date": 133086097808417506
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD0.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD0.gltf",
       "size": 828658,
       "date": 133086097808477536
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD1.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD1.bin",
       "size": 10946892,
       "date": 133086097809187521
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD1.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD1.gltf",
       "size": 782744,
       "date": 133086097809237509
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD2.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD2.bin",
       "size": 2765964,
       "date": 133086097809427520
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD2.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD2.gltf",
       "size": 201339,
       "date": 133086097809442522
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD3.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD3.bin",
       "size": 367524,
       "date": 133086097809472506
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD3.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD3.gltf",
       "size": 45879,
       "date": 133086097809477526
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD4.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD4.bin",
       "size": 106002,
       "date": 133086097809487531
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD4.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD4.gltf",
       "size": 4551,
       "date": 133086097809492514
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD6.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD6.bin",
       "size": 114,
       "date": 133086097809497524
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_interior_LOD6.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_interior_LOD6.gltf",
       "size": 2233,
       "date": 133086097809502531
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD0.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD0.bin",
       "size": 13398632,
       "date": 133086097805547533
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD0.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD0.gltf",
       "size": 244520,
       "date": 133086097805577534
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD1.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD1.bin",
       "size": 9838988,
       "date": 133086097806252561
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD1.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD1.gltf",
       "size": 243753,
       "date": 133086097806277526
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD2.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD2.bin",
       "size": 5858240,
       "date": 133086097806682528
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD2.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD2.gltf",
       "size": 232444,
       "date": 133086097806702532
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD3.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD3.bin",
       "size": 3415548,
       "date": 133086097806937557
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD3.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD3.gltf",
       "size": 225851,
       "date": 133086097806957541
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD4.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD4.bin",
       "size": 607316,
       "date": 133086097806997516
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD4.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD4.gltf",
       "size": 118259,
       "date": 133086097807002517
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD6.bin",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD6.bin",
       "size": 6084,
       "date": 133086097807007516
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/KINGAIR_350I_LOD6.gltf",
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/KINGAIR_350I_LOD6.gltf",
       "size": 2678,
       "date": 133086097807012521
     },
     {
-      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model/model.CFG",
-      "size": 685,
-      "date": 133086097809502531
+      "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/model.XP67A/model.CFG",
+      "size": 741,
+      "date": 133086218942447195
     },
     {
       "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/panel/PANEL.CFG",
@@ -1382,8 +1382,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/TEXTURE/texture.CFG",
-      "size": 286,
-      "date": 133086097804512528
+      "size": 352,
+      "date": 133086219668621521
     },
     {
       "path": "SimObjects/Airplanes/Blackhawk_KingAir350i/TEXTURE/thumbnail.JPG",
